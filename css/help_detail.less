@@ -1,0 +1,137 @@
+#help_detail {
+  padding-top: 5.625rem;
+
+  .banner {
+    height: 6.25rem;
+    background: url("https://aictb.oss-cn-shanghai.aliyuncs.com/website/student_bg.png") no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .search_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.75rem 0;
+
+    .search {
+      width: 520px;
+      padding-left: 30px;
+      height: 50px;
+      background: #FFFFFF;
+      border: 1px solid #E5E5E5;
+      border-radius: 27px;
+      border-top-right-radius: 0%;
+      border-bottom-right-radius: 0%;
+      outline: none;
+    }
+
+    span {
+      display: block;
+      width: 92px;
+      height: 52px;
+      line-height: 52px;
+      text-align: center;
+      background: #FF4D3A;
+      border-radius: 0px 26px 26px 0px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #FFFFFF;
+      cursor: pointer;
+    }
+  }
+
+  .main_body {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 29rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+
+    .pagination {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .page-item {
+        list-style: none;
+        border: 1px solid #eee;
+        width: 3rem;
+        height: 3rem;
+        font-size: 1rem;
+        line-height: 3rem;
+        text-align: center;
+        color: #ccc;
+      }
+      .active{
+        background: skyblue;
+        border-color: skyblue;
+        color: #fff;
+      }
+    }
+
+    .lt_warp {
+      width: 322px;
+      height: 811px;
+      background: #FFFFFF;
+      border: 1px solid #E5E5E5;
+
+      .lt_item {
+        height: 3.1875rem;
+        line-height: 3.1875rem;
+        border-bottom: 1px solid #E5E5E5;
+        padding-left: 1.875rem;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #333333;
+        cursor: pointer;
+
+        &:last-child {
+          border: none;
+        }
+      }
+
+      .current {
+        background: #FF4D3A;
+        color: #fff;
+      }
+    }
+
+    .rt_box {
+      flex: 1;
+      margin-left: .9375rem;
+      border: 1px solid #E5E5E5;
+      padding: 1.875rem;
+
+      .ri_item {
+        margin-bottom: 1.875rem;
+        padding-bottom: 1.875rem;
+        border-bottom: 1px solid #E5E5E5;
+
+        &:last-child {
+          border: none;
+          margin-bottom: 0;
+          padding-bottom: 0;
+        }
+
+        .title {
+          background: url("https://aictb.oss-cn-shanghai.aliyuncs.com/website/qs_icon.png") no-repeat;
+          background-size: 1rem 1.25rem;
+          padding-left: 1.4375rem;
+          cursor: pointer;
+        }
+
+        .content {
+          font-size: 1rem;
+          font-weight: 400;
+          color: #999999;
+          margin-top: 1.1875rem;
+        }
+      }
+    }
+  }
+}

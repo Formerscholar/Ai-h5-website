@@ -1,0 +1,146 @@
+#download {
+  padding-top: 5.625rem;
+}
+#download .Showdownload {
+  height: 43.75rem;
+  background: url("https://aictb.oss-cn-shanghai.aliyuncs.com/website/down_bg.png") no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#download .Showdownload .lt_warp .tp_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+#download .Showdownload .lt_warp .tp_box .title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#download .Showdownload .lt_warp .tp_box .title .logo_download {
+  width: 3.8125rem;
+  height: 3.8125rem;
+  margin-right: 0.875rem;
+}
+#download .Showdownload .lt_warp .tp_box .title .text {
+  font-size: 2.9375rem;
+  font-family: 'Source Han Sans CN';
+  font-weight: 400;
+  color: #FFFFFF;
+}
+#download .Showdownload .lt_warp .tp_box .tip {
+  font-size: 1.4375rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-style: normal;
+  margin-top: 1.1875rem;
+}
+#download .Showdownload .lt_warp .bt_box {
+  margin-top: 4.25rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#download .Showdownload .lt_warp .bt_box .DownloadQRcode {
+  width: 8.25rem;
+  height: 9rem;
+  margin-right: 2.875rem;
+}
+#download .Showdownload .lt_warp .bt_box .btns .iphone_download {
+  width: 11.1875rem;
+  height: 2.9375rem;
+  background: #FF564B;
+  border-radius: 1.4375rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 1.4375rem;
+  cursor: pointer;
+}
+#download .Showdownload .lt_warp .bt_box .btns .iphone_download .iphone_icon {
+  width: 1.375rem;
+  height: 1.75rem;
+  background: url("https://aictb.oss-cn-shanghai.aliyuncs.com/website/apple_icon.png") no-repeat;
+  background-size: 100% 100%;
+  margin-right: 0.875rem;
+}
+#download .Showdownload .lt_warp .bt_box .btns .iphone_download .iphone_text {
+  font-size: 1.125rem;
+  font-family: 'PingFang SC';
+  font-weight: 500;
+  color: #FFFFFF;
+}
+#download .Showdownload .lt_warp .bt_box .btns .android_download {
+  margin-top: 1.5625rem;
+  width: 11.1875rem;
+  height: 2.9375rem;
+  background: rgba(255, 87, 76, 0.2);
+  border: 1px solid #FFFFFF;
+  border-radius: 1.4375rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 1.4375rem;
+}
+#download .Showdownload .lt_warp .bt_box .btns .android_download .android_icon {
+  width: 1.375rem;
+  height: 1.625rem;
+  background: url("https://aictb.oss-cn-shanghai.aliyuncs.com/website/Android_icon.png") no-repeat;
+  background-size: 100% 100%;
+  margin-right: 0.875rem;
+}
+#download .Showdownload .lt_warp .bt_box .btns .android_download .android_text {
+  font-size: 1.125rem;
+  font-family: 'PingFang SC';
+  font-weight: 500;
+  color: #FFFFFF;
+}
+#download .Showdownload .rt_warp {
+  width: 17.25rem;
+  height: 32.25rem;
+  background: url("https://aictb.oss-cn-shanghai.aliyuncs.com/website/phone_bg.png") no-repeat;
+  background-size: 100% 100%;
+  margin-left: 10.1875rem;
+  padding: 5.25rem 2.5rem;
+}
+#download .Showdownload .rt_warp img {
+  width: 100%;
+  height: 100%;
+}
+#download .lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 37.5rem;
+  width: 1200px;
+  margin: 0 auto;
+}
+#download .lists .text_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+#download .lists .text_box .title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #222222;
+  margin-bottom: 2.4375rem;
+}
+#download .lists .text_box .tip {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #999999;
+  font-style: normal;
+}
+#download .lists .rt_text {
+  align-items: flex-end;
+}
+#download .lists img {
+  width: 28.125rem;
+  height: 22.75rem;
+}

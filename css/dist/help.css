@@ -1,0 +1,106 @@
+#Help {
+  padding-top: 5.625rem;
+}
+#Help .banner {
+  width: 100%;
+  height: 18.75rem;
+  background: url("https://aictb.oss-cn-shanghai.aliyuncs.com/website/help_banner_bg.png") no-repeat;
+  background-size: auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5.625rem;
+}
+#Help .banner .type_change {
+  width: 331px;
+  height: 109px;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 5px 0px rgba(240, 127, 71, 0.07);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.375rem;
+  cursor: pointer;
+}
+#Help .banner .type_change h1 {
+  margin-left: 2.0625rem;
+  font-size: 26px;
+  font-weight: 400;
+  color: #222222;
+}
+#Help .banner .type_change .current {
+  color: #FF4D3A;
+}
+#Help .banner .type_change:first-child {
+  margin-right: 3.25rem;
+}
+#Help .newbie {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 5.625rem;
+}
+#Help .newbie .top_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#Help .newbie .top_box .lt_title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#Help .newbie .top_box .lt_title .text {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #333333;
+}
+#Help .newbie .top_box .lt_title .help_icon {
+  margin-left: 1.25rem;
+}
+#Help .newbie .top_box .rt_more {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #999999;
+  cursor: pointer;
+}
+#Help .newbie .grid_box {
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  margin-top: 3.75rem;
+  padding: 1.5625rem 3.125rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+#Help .newbie .grid_box .item {
+  width: 50%;
+  height: 2.8125rem;
+  line-height: 2.8125rem;
+  background: url("https://aictb.oss-cn-shanghai.aliyuncs.com/website/qs_icon.png") no-repeat;
+  background-size: 1rem 1.25rem;
+  background-position: 0 50%;
+  padding-left: 1.25rem;
+  cursor: pointer;
+}
+#Help .video {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 5.625rem;
+}
+#Help .video .title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #333333;
+}
+#Help .video .title span {
+  margin-right: 1.25rem;
+}
+#Help .video .video_dom {
+  width: 100%;
+  height: 31.25rem;
+  margin-top: 3.75rem;
+  cursor: pointer;
+}

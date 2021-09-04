@@ -1,0 +1,94 @@
+#About {
+  padding-top: 5.625rem;
+}
+#About .CompanyName {
+  height: 18.75rem;
+  background: url("https://aictb.oss-cn-shanghai.aliyuncs.com/website/about_bg.png") no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+#About .CompanyName .Compartment {
+  width: 6.25rem;
+  height: 0.25rem;
+  background: #FFFFFF;
+  margin-top: 1.25rem;
+}
+#About .body {
+  padding: 5.625rem 0;
+  width: 1200px;
+  margin: 0 auto;
+}
+#About .body .CompanyProfile {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#About .body .CompanyProfile .introduce {
+  width: 31.25rem;
+  height: 20.8125rem;
+}
+#About .body .CompanyProfile strong {
+  width: 41rem;
+  margin-left: 3.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+#About .body .CompanyProfile strong span {
+  width: 40rem;
+  font-size: 1rem;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: #999999;
+  font-style: normal;
+  text-indent: 2rem;
+}
+#About .body .contact_us {
+  margin-top: 5.625rem;
+}
+#About .body .contact_us .title_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+#About .body .contact_us .title_box strong {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333333;
+}
+#About .body .contact_us .title_box em {
+  margin-top: 1.5625rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #999999;
+  font-style: normal;
+}
+#About .body .contact_us .contact_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+}
+#About .body .contact_us .contact_body .rt_map {
+  width: 100%;
+  height: 28.3125rem;
+  background: #BBBBBB;
+  border: 0.5rem solid #FFFFFF;
+  box-shadow: 0px 0px 0.75rem 0px rgba(191, 191, 191, 0.46);
+  border-radius: 0.3125rem;
+  flex: 1;
+}
+#About .body .contact_us .adderss_box h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333333;
+}

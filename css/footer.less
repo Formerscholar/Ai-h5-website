@@ -1,0 +1,82 @@
+.foot {
+  height: 8.875rem;
+  background-color: #222222;
+  z-index: 9999;
+
+  .foot_warp {
+    width: 90rem;
+    height: 7.625rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .lt_box {
+      display: grid;
+      grid-template-columns: 8.125rem 8.125rem 8.125rem 8.125rem;
+      grid-template-rows: 1.25rem 1.25rem;
+      grid-gap: 1.25rem 7.125rem;
+      justify-items: start;
+      align-items: start;
+      justify-content: center;
+      align-content: center;
+
+      em {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #FFFFFF;
+        font-style: normal;
+
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7),
+        &:nth-child(8) {
+          font-size: 1rem;
+          font-weight: bold;
+          color: rgba(255, 255, 255, 0.6);
+
+        }
+      }
+    }
+
+    .rt_box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .QRcode_box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 3.5rem;
+          height: 3.5rem;
+        }
+
+        em {
+          font-size: .625rem;
+          font-weight: 400;
+          color: rgba(255, 255, 255, 0.5);
+          margin-top: .3125rem;
+          font-style: normal;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+
+  small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1.25rem;
+    background-color: #3B3B3B;
+    font-size: .625rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+
+  }
+}
